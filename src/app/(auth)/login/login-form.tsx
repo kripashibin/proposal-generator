@@ -52,7 +52,7 @@ export function LoginForm({ next }: { next: string }) {
           <TabsContent value="signup" className="space-y-4">
             <form action={signUpAction} className="space-y-4">
               <div className="space-y-2">
-                <Label htmlFor="signup-company">Company name</Label>
+                <Label htmlFor="signup-company">Company</Label>
                 <Input id="signup-company" name="companyName" required />
               </div>
               <div className="space-y-2">
