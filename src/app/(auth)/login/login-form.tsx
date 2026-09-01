@@ -32,7 +32,7 @@ export function LoginForm({ next }: { next: string }) {
                 <Input id="signin-email" name="email" type="email" required autoComplete="email" />
               </div>
               <div className="space-y-2">
-                <Label htmlFor="signin-password">Password</Label>
+                <Label htmlFor="signin-password">Pass</Label>
                 <Input
                   id="signin-password"
                   name="password"
